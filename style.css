@@ -1,0 +1,90 @@
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+
+.titleArticle{
+    text-align: center;
+    margin-left: 350px;
+    background: linear-gradient(to right, rgba(255,0,0,1), rgba(255,255,255,1), rgba(255,0,0,1));
+    -webkit-background-clip: text;
+    color: transparent; 
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 60px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+}
+
+.sottoCard{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 5px 5px 5px 5px;
+    border-radius: 20%;
+    text-align: center;
+}
+
+.imgCard{
+    margin-top: 3px;
+    width: 100px;
+    height: 50px;
+}
+
+.listPlaces{
+    margin-top: -30px;
+    margin-left: 350px;
+}
+
+.pagArticolo{
+    /* width: 100vw; */
+    height: 50vh;
+    background-image: url(./monteFuji.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+.infoPlaces{
+    text-align: center;
+    font-family: "Dosis", sans-serif;
+    font-size: 30px;
+}
+ol, li {
+    list-style: none;
+}
+
+p{
+    font-family: "Dosis", sans-serif;
+    font-size: 18px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.padre{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+@media screen and (max-width:600px){
+    .padre{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box{
+        width: 100%;
+    }
+}
